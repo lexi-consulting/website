@@ -5,6 +5,13 @@
         fill: "radiant"
     };
 </script>
+/**
+* PurgeCSS:
+* fill-radiant
+* fill-rogue
+* fill-valiant
+* fill-true
+*/
 <g transform="matrix(1.83 0 0 1.83 {config.radius} {config.radius})">
     <path
         class="fill-{config.fill} quarter"

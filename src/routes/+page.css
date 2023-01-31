@@ -4,9 +4,9 @@ body {
     background: -webkit-linear-gradient(45deg, #FFFFFF 0%,#1f6f59 20%, #232b6c 40%, #8b1c18 60%, #e0bb00 80%, #FFFFFF 100%);
     background: linear-gradient(45deg, #1f6f59 0%, #232b6c 10%, #8b1c18 90%, #e0bb00 100%);
     background-size: 20000% 5%;
-    -webkit-animation: Gradient 240s ease infinite;
-	-moz-animation: Gradient 240s ease infinite;
-	animation: Gradient 240s ease infinite;
+    -webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
 	/*min-height: calc(100vh - 2rem);*/
 	display: flex;
 	flex-direction: column;

@@ -1,9 +1,9 @@
 <script lang="ts">
-    let x = 125;
-    let y = 105.12;
+    let x : number = 125;
+    let y : number = 105.12;
     export let radius :number = 540;
     let radiusRatio :number = radius/540;
-    let font = radius*150/540;
+    let font :number = radius*150/540;
 </script>
 
 <g transform="matrix({radiusRatio}  0 0 {radiusRatio} 463.5 463.5)" xmlns="http://www.w3.org/2000/svg" style="">
