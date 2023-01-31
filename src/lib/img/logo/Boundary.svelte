@@ -1,7 +1,10 @@
 <script>
     let ratio = 280;
     export let radius = 540;
-    export let stroke = radius*(ratio/540);
+
+    let defaultRadius = 540;
+	let largeRatio = 275;
+    let stroke = radius*(largeRatio/defaultRadius)/2;
 </script>
 <g transform="matrix(1.83 0 0 1.83 {radius} {radius})">
     <line
